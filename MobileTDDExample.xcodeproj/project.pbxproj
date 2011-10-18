@@ -9,9 +9,32 @@
 /* Begin PBXBuildFile section */
 		7143EFFB144836BA00AA385D /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 7143EFFA144836BA00AA385D /* Headers */; };
 		7143EFFE14483B6900AA385D /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143EFFD14483B6900AA385D /* GHUnitIOS.framework */; };
+		71504D3C144D6BF000AABC10 /* Game.h in Sources */ = {isa = PBXBuildFile; fileRef = 715FA209144D524500902EC4 /* Game.h */; };
+		71504D3D144D6BF000AABC10 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA20A144D524500902EC4 /* Game.m */; };
+		71504D3E144D6BF000AABC10 /* OCHamcrestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA20F144D57E300902EC4 /* OCHamcrestTest.m */; };
+		71504D3F144D6BF000AABC10 /* BowlingGameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA207144D522800902EC4 /* BowlingGameTest.m */; };
+		71504D40144D6BF000AABC10 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EE6136A83160016EF8E /* GHUnitIOSTestMain.m */; };
+		71504D41144D6BF000AABC10 /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EE9136A83830016EF8E /* ExampleTest.m */; };
+		71504D42144D6BF000AABC10 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99C6144819150077AE17 /* MyClass.m */; };
+		71504D43144D6BF000AABC10 /* MyAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99CB14481B780077AE17 /* MyAsyncTest.m */; };
+		71504D47144D6C1C00AABC10 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71504D45144D6C1C00AABC10 /* GHUnitIOS.framework */; };
+		71504D48144D6C1C00AABC10 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71504D46144D6C1C00AABC10 /* OCHamcrestIOS.framework */; };
+		71504D4B144D6C7300AABC10 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F99D2144824E60077AE17 /* libOCMock.a */; };
 		715F99C8144819150077AE17 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99C6144819150077AE17 /* MyClass.m */; };
 		715F99CD14481B780077AE17 /* MyAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99CB14481B780077AE17 /* MyAsyncTest.m */; };
 		715F99D3144824E60077AE17 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F99D2144824E60077AE17 /* libOCMock.a */; };
+		715FA208144D522800902EC4 /* BowlingGameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA207144D522800902EC4 /* BowlingGameTest.m */; };
+		715FA20B144D524500902EC4 /* Game.h in Sources */ = {isa = PBXBuildFile; fileRef = 715FA209144D524500902EC4 /* Game.h */; };
+		715FA20C144D524500902EC4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA20A144D524500902EC4 /* Game.m */; };
+		715FA20D144D525600902EC4 /* Game.h in Sources */ = {isa = PBXBuildFile; fileRef = 715FA209144D524500902EC4 /* Game.h */; };
+		715FA20E144D525600902EC4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA20A144D524500902EC4 /* Game.m */; };
+		715FA210144D57E300902EC4 /* OCHamcrestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA20F144D57E300902EC4 /* OCHamcrestTest.m */; };
+		715FA21A144D6AC700902EC4 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715FA219144D6AC700902EC4 /* OCHamcrestIOS.framework */; };
+		715FA221144D6B8400902EC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DB956A1446F3D4004AFCBF /* SenTestingKit.framework */; };
+		715FA222144D6B8400902EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676E9D136A80D80016EF8E /* UIKit.framework */; };
+		715FA223144D6B8400902EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676E9F136A80D80016EF8E /* Foundation.framework */; };
+		715FA224144D6B8400902EC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676EA1136A80D80016EF8E /* CoreGraphics.framework */; };
+		715FA22A144D6B8400902EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715FA228144D6B8400902EC4 /* InfoPlist.strings */; };
 		71676E9E136A80D80016EF8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676E9D136A80D80016EF8E /* UIKit.framework */; };
 		71676EA0136A80D80016EF8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676E9F136A80D80016EF8E /* Foundation.framework */; };
 		71676EA2136A80D80016EF8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676EA1136A80D80016EF8E /* CoreGraphics.framework */; };
@@ -35,9 +58,20 @@
 /* Begin PBXFileReference section */
 		7143EFFA144836BA00AA385D /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = "Extra-libs/Headers"; sourceTree = "<group>"; };
 		7143EFFD14483B6900AA385D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "Extra-libs/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		71504D45144D6C1C00AABC10 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "Extra-libs/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		71504D46144D6C1C00AABC10 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "Extra-libs/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
 		715F99C6144819150077AE17 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		715F99CB14481B780077AE17 /* MyAsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncTest.m; sourceTree = "<group>"; };
 		715F99D2144824E60077AE17 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "Extra-libs/libOCMock.a"; sourceTree = "<group>"; };
+		715FA207144D522800902EC4 /* BowlingGameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlingGameTest.m; sourceTree = "<group>"; };
+		715FA209144D524500902EC4 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = Game.h; sourceTree = "<group>"; };
+		715FA20A144D524500902EC4 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		715FA20F144D57E300902EC4 /* OCHamcrestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCHamcrestTest.m; sourceTree = "<group>"; };
+		715FA219144D6AC700902EC4 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "Extra-libs/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
+		715FA220144D6B8400902EC4 /* UnitTestTarget.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestTarget.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715FA227144D6B8400902EC4 /* UnitTestTarget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTestTarget-Info.plist"; sourceTree = "<group>"; };
+		715FA229144D6B8400902EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715FA22F144D6B8400902EC4 /* UnitTestTarget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTestTarget-Prefix.pch"; sourceTree = "<group>"; };
 		71676E99136A80D80016EF8E /* MobileTDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileTDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71676E9D136A80D80016EF8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71676E9F136A80D80016EF8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +98,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		715FA21C144D6B8400902EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71504D47144D6C1C00AABC10 /* GHUnitIOS.framework in Frameworks */,
+				71504D48144D6C1C00AABC10 /* OCHamcrestIOS.framework in Frameworks */,
+				715FA221144D6B8400902EC4 /* SenTestingKit.framework in Frameworks */,
+				715FA222144D6B8400902EC4 /* UIKit.framework in Frameworks */,
+				715FA223144D6B8400902EC4 /* Foundation.framework in Frameworks */,
+				71504D4B144D6C7300AABC10 /* libOCMock.a in Frameworks */,
+				715FA224144D6B8400902EC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71676E96136A80D80016EF8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715FA21A144D6AC700902EC4 /* OCHamcrestIOS.framework in Frameworks */,
 				7143EFFE14483B6900AA385D /* GHUnitIOS.framework in Frameworks */,
 				71DB956B1446F3D4004AFCBF /* SenTestingKit.framework in Frameworks */,
 				71676EC8136A818A0016EF8E /* UIKit.framework in Frameworks */,
@@ -91,12 +140,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715FA225144D6B8400902EC4 /* UnitTestTarget */ = {
+			isa = PBXGroup;
+			children = (
+				715FA226144D6B8400902EC4 /* Supporting Files */,
+			);
+			path = UnitTestTarget;
+			sourceTree = "<group>";
+		};
+		715FA226144D6B8400902EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715FA227144D6B8400902EC4 /* UnitTestTarget-Info.plist */,
+				715FA228144D6B8400902EC4 /* InfoPlist.strings */,
+				715FA22F144D6B8400902EC4 /* UnitTestTarget-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		71676E8E136A80D70016EF8E = {
 			isa = PBXGroup;
 			children = (
+				71504D45144D6C1C00AABC10 /* GHUnitIOS.framework */,
+				71504D46144D6C1C00AABC10 /* OCHamcrestIOS.framework */,
 				7143EFFA144836BA00AA385D /* Headers */,
 				71676EA5136A80D80016EF8E /* MobileTDDExample */,
 				71676ECB136A818A0016EF8E /* Tests */,
+				715FA225144D6B8400902EC4 /* UnitTestTarget */,
 				71676E9C136A80D80016EF8E /* Frameworks */,
 				71676E9A136A80D80016EF8E /* Products */,
 			);
@@ -107,6 +177,7 @@
 			children = (
 				71676E99136A80D80016EF8E /* MobileTDDExample.app */,
 				71676EC6136A818A0016EF8E /* Tests.app */,
+				715FA220144D6B8400902EC4 /* UnitTestTarget.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +185,7 @@
 		71676E9C136A80D80016EF8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				715FA219144D6AC700902EC4 /* OCHamcrestIOS.framework */,
 				7143EFFD14483B6900AA385D /* GHUnitIOS.framework */,
 				715F99D2144824E60077AE17 /* libOCMock.a */,
 				71DB956A1446F3D4004AFCBF /* SenTestingKit.framework */,
@@ -128,6 +200,8 @@
 		71676EA5136A80D80016EF8E /* MobileTDDExample */ = {
 			isa = PBXGroup;
 			children = (
+				715FA209144D524500902EC4 /* Game.h */,
+				715FA20A144D524500902EC4 /* Game.m */,
 				71676EAE136A80D80016EF8E /* MobileTDDExampleAppDelegate.h */,
 				71676EAF136A80D80016EF8E /* MobileTDDExampleAppDelegate.m */,
 				71676EB4136A80D80016EF8E /* MainWindow.xib */,
@@ -154,6 +228,8 @@
 		71676ECB136A818A0016EF8E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				715FA20F144D57E300902EC4 /* OCHamcrestTest.m */,
+				715FA207144D522800902EC4 /* BowlingGameTest.m */,
 				71676ECC136A818A0016EF8E /* Supporting Files */,
 				71676EE6136A83160016EF8E /* GHUnitIOSTestMain.m */,
 				71676EE9136A83830016EF8E /* ExampleTest.m */,
@@ -176,6 +252,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		715FA21F144D6B8400902EC4 /* UnitTestTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715FA230144D6B8400902EC4 /* Build configuration list for PBXNativeTarget "UnitTestTarget" */;
+			buildPhases = (
+				715FA21B144D6B8400902EC4 /* Sources */,
+				715FA21C144D6B8400902EC4 /* Frameworks */,
+				715FA21D144D6B8400902EC4 /* Resources */,
+				715FA21E144D6B8400902EC4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestTarget;
+			productName = UnitTestTarget;
+			productReference = 715FA220144D6B8400902EC4 /* UnitTestTarget.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		71676E98136A80D80016EF8E /* MobileTDDExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71676EBF136A80D80016EF8E /* Build configuration list for PBXNativeTarget "MobileTDDExample" */;
@@ -229,11 +323,20 @@
 			targets = (
 				71676E98136A80D80016EF8E /* MobileTDDExample */,
 				71676EC5136A818A0016EF8E /* Tests */,
+				715FA21F144D6B8400902EC4 /* UnitTestTarget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		715FA21D144D6B8400902EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715FA22A144D6B8400902EC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71676E97136A80D80016EF8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,11 +358,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		715FA21E144D6B8400902EC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		715FA21B144D6B8400902EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71504D3C144D6BF000AABC10 /* Game.h in Sources */,
+				71504D3D144D6BF000AABC10 /* Game.m in Sources */,
+				71504D3E144D6BF000AABC10 /* OCHamcrestTest.m in Sources */,
+				71504D3F144D6BF000AABC10 /* BowlingGameTest.m in Sources */,
+				71504D40144D6BF000AABC10 /* GHUnitIOSTestMain.m in Sources */,
+				71504D41144D6BF000AABC10 /* ExampleTest.m in Sources */,
+				71504D42144D6BF000AABC10 /* MyClass.m in Sources */,
+				71504D43144D6BF000AABC10 /* MyAsyncTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71676E95136A80D80016EF8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715FA20D144D525600902EC4 /* Game.h in Sources */,
+				715FA20E144D525600902EC4 /* Game.m in Sources */,
 				71676EAD136A80D80016EF8E /* main.m in Sources */,
 				71676EB0136A80D80016EF8E /* MobileTDDExampleAppDelegate.m in Sources */,
 				71676EB3136A80D80016EF8E /* MobileTDDExample.xcdatamodeld in Sources */,
@@ -275,12 +411,24 @@
 				71676EEA136A83830016EF8E /* ExampleTest.m in Sources */,
 				715F99C8144819150077AE17 /* MyClass.m in Sources */,
 				715F99CD14481B780077AE17 /* MyAsyncTest.m in Sources */,
+				715FA208144D522800902EC4 /* BowlingGameTest.m in Sources */,
+				715FA20B144D524500902EC4 /* Game.h in Sources */,
+				715FA20C144D524500902EC4 /* Game.m in Sources */,
+				715FA210144D57E300902EC4 /* OCHamcrestTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		715FA228144D6B8400902EC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715FA229144D6B8400902EC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		71676EA8136A80D80016EF8E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -316,6 +464,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		715FA231144D6B8400902EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Extra-libs\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestTarget/UnitTestTarget-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Extra-libs/Headers\"/**";
+				INFOPLIST_FILE = "UnitTestTarget/UnitTestTarget-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Extra-libs\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		715FA232144D6B8400902EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Extra-libs\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestTarget/UnitTestTarget-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Extra-libs/Headers\"/**";
+				INFOPLIST_FILE = "UnitTestTarget/UnitTestTarget-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Extra-libs\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		71676EBD136A80D80016EF8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,6 +655,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		715FA230144D6B8400902EC4 /* Build configuration list for PBXNativeTarget "UnitTestTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715FA231144D6B8400902EC4 /* Debug */,
+				715FA232144D6B8400902EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		71676E93136A80D70016EF8E /* Build configuration list for PBXProject "MobileTDDExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
