@@ -17,9 +17,9 @@
 		71504D41144D6BF000AABC10 /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EE9136A83830016EF8E /* ExampleTest.m */; };
 		71504D42144D6BF000AABC10 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99C6144819150077AE17 /* MyClass.m */; };
 		71504D43144D6BF000AABC10 /* MyAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99CB14481B780077AE17 /* MyAsyncTest.m */; };
-		71504D47144D6C1C00AABC10 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71504D45144D6C1C00AABC10 /* GHUnitIOS.framework */; };
-		71504D48144D6C1C00AABC10 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71504D46144D6C1C00AABC10 /* OCHamcrestIOS.framework */; };
 		71504D4B144D6C7300AABC10 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F99D2144824E60077AE17 /* libOCMock.a */; };
+		71504D4C144D6DE500AABC10 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715FA219144D6AC700902EC4 /* OCHamcrestIOS.framework */; };
+		71504D4D144D6DE500AABC10 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143EFFD14483B6900AA385D /* GHUnitIOS.framework */; };
 		715F99C8144819150077AE17 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99C6144819150077AE17 /* MyClass.m */; };
 		715F99CD14481B780077AE17 /* MyAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F99CB14481B780077AE17 /* MyAsyncTest.m */; };
 		715F99D3144824E60077AE17 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715F99D2144824E60077AE17 /* libOCMock.a */; };
@@ -52,14 +52,28 @@
 		71676ED0136A818A0016EF8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71676ECE136A818A0016EF8E /* InfoPlist.strings */; };
 		71676EE7136A83160016EF8E /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EE6136A83160016EF8E /* GHUnitIOSTestMain.m */; };
 		71676EEA136A83830016EF8E /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EE9136A83830016EF8E /* ExampleTest.m */; };
+		71879480144E7E3D006F7439 /* Game.h in Sources */ = {isa = PBXBuildFile; fileRef = 715FA209144D524500902EC4 /* Game.h */; };
+		71879481144E7E3D006F7439 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA20A144D524500902EC4 /* Game.m */; };
+		71879482144E7E3D006F7439 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EAC136A80D80016EF8E /* main.m */; };
+		71879483144E7E3D006F7439 /* MobileTDDExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EAF136A80D80016EF8E /* MobileTDDExampleAppDelegate.m */; };
+		71879484144E7E3D006F7439 /* MobileTDDExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71676EB1136A80D80016EF8E /* MobileTDDExample.xcdatamodeld */; };
+		71879485144E7E3D006F7439 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71676EB8136A80D80016EF8E /* RootViewController.m */; };
+		71879487144E7E3D006F7439 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676E9D136A80D80016EF8E /* UIKit.framework */; };
+		71879488144E7E3D006F7439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676E9F136A80D80016EF8E /* Foundation.framework */; };
+		71879489144E7E3D006F7439 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676EA1136A80D80016EF8E /* CoreGraphics.framework */; };
+		7187948A144E7E3D006F7439 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71676EA3136A80D80016EF8E /* CoreData.framework */; };
+		7187948C144E7E3D006F7439 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71676EA8136A80D80016EF8E /* InfoPlist.strings */; };
+		7187948D144E7E3D006F7439 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71676EB4136A80D80016EF8E /* MainWindow.xib */; };
+		7187948E144E7E3D006F7439 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71676EBA136A80D80016EF8E /* RootViewController.xib */; };
+		718794A4144E828F006F7439 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 718794A2144E828F006F7439 /* frank_static_resources.bundle */; };
+		718794A5144E828F006F7439 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718794A3144E828F006F7439 /* libFrank.a */; };
+		718794A8144E82CC006F7439 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718794A7144E82CC006F7439 /* CFNetwork.framework */; };
 		71DB956B1446F3D4004AFCBF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DB956A1446F3D4004AFCBF /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7143EFFA144836BA00AA385D /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = "Extra-libs/Headers"; sourceTree = "<group>"; };
 		7143EFFD14483B6900AA385D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "Extra-libs/GHUnitIOS.framework"; sourceTree = "<group>"; };
-		71504D45144D6C1C00AABC10 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "Extra-libs/GHUnitIOS.framework"; sourceTree = "<group>"; };
-		71504D46144D6C1C00AABC10 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "Extra-libs/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
 		715F99C6144819150077AE17 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		715F99CB14481B780077AE17 /* MyAsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncTest.m; sourceTree = "<group>"; };
 		715F99D2144824E60077AE17 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "Extra-libs/libOCMock.a"; sourceTree = "<group>"; };
@@ -94,6 +108,11 @@
 		71676ED1136A818A0016EF8E /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71676EE6136A83160016EF8E /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
 		71676EE9136A83830016EF8E /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTest.m; sourceTree = "<group>"; };
+		71879492144E7E3D006F7439 /* MobileTDDExample Frankified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileTDDExample Frankified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71879495144E7E3E006F7439 /* MobileTDDExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MobileTDDExample copy-Info.plist"; path = "/Users/ray/Workspaces/iPhoneWorkspace/MobileTDDExample/MobileTDDExample copy-Info.plist"; sourceTree = "<absolute>"; };
+		718794A2144E828F006F7439 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = frank_static_resources.bundle; path = Frank/frank_static_resources.bundle; sourceTree = "<group>"; };
+		718794A3144E828F006F7439 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFrank.a; path = Frank/libFrank.a; sourceTree = "<group>"; };
+		718794A7144E82CC006F7439 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		71DB956A1446F3D4004AFCBF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -102,12 +121,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71504D47144D6C1C00AABC10 /* GHUnitIOS.framework in Frameworks */,
-				71504D48144D6C1C00AABC10 /* OCHamcrestIOS.framework in Frameworks */,
 				715FA221144D6B8400902EC4 /* SenTestingKit.framework in Frameworks */,
 				715FA222144D6B8400902EC4 /* UIKit.framework in Frameworks */,
 				715FA223144D6B8400902EC4 /* Foundation.framework in Frameworks */,
 				71504D4B144D6C7300AABC10 /* libOCMock.a in Frameworks */,
+				71504D4C144D6DE500AABC10 /* OCHamcrestIOS.framework in Frameworks */,
+				71504D4D144D6DE500AABC10 /* GHUnitIOS.framework in Frameworks */,
 				715FA224144D6B8400902EC4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71879486144E7E3D006F7439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718794A8144E82CC006F7439 /* CFNetwork.framework in Frameworks */,
+				71879487144E7E3D006F7439 /* UIKit.framework in Frameworks */,
+				71879488144E7E3D006F7439 /* Foundation.framework in Frameworks */,
+				71879489144E7E3D006F7439 /* CoreGraphics.framework in Frameworks */,
+				7187948A144E7E3D006F7439 /* CoreData.framework in Frameworks */,
+				718794A5144E828F006F7439 /* libFrank.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -161,14 +193,14 @@
 		71676E8E136A80D70016EF8E = {
 			isa = PBXGroup;
 			children = (
-				71504D45144D6C1C00AABC10 /* GHUnitIOS.framework */,
-				71504D46144D6C1C00AABC10 /* OCHamcrestIOS.framework */,
+				718794A7144E82CC006F7439 /* CFNetwork.framework */,
 				7143EFFA144836BA00AA385D /* Headers */,
 				71676EA5136A80D80016EF8E /* MobileTDDExample */,
 				71676ECB136A818A0016EF8E /* Tests */,
 				715FA225144D6B8400902EC4 /* UnitTestTarget */,
 				71676E9C136A80D80016EF8E /* Frameworks */,
 				71676E9A136A80D80016EF8E /* Products */,
+				71879495144E7E3E006F7439 /* MobileTDDExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +210,7 @@
 				71676E99136A80D80016EF8E /* MobileTDDExample.app */,
 				71676EC6136A818A0016EF8E /* Tests.app */,
 				715FA220144D6B8400902EC4 /* UnitTestTarget.octest */,
+				71879492144E7E3D006F7439 /* MobileTDDExample Frankified.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +218,8 @@
 		71676E9C136A80D80016EF8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				718794A2144E828F006F7439 /* frank_static_resources.bundle */,
+				718794A3144E828F006F7439 /* libFrank.a */,
 				715FA219144D6AC700902EC4 /* OCHamcrestIOS.framework */,
 				7143EFFD14483B6900AA385D /* GHUnitIOS.framework */,
 				715F99D2144824E60077AE17 /* libOCMock.a */,
@@ -304,6 +339,23 @@
 			productReference = 71676EC6136A818A0016EF8E /* Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7187947E144E7E3D006F7439 /* MobileTDDExample copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7187948F144E7E3D006F7439 /* Build configuration list for PBXNativeTarget "MobileTDDExample copy" */;
+			buildPhases = (
+				7187947F144E7E3D006F7439 /* Sources */,
+				71879486144E7E3D006F7439 /* Frameworks */,
+				7187948B144E7E3D006F7439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileTDDExample copy";
+			productName = MobileTDDExample;
+			productReference = 71879492144E7E3D006F7439 /* MobileTDDExample Frankified.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,6 +376,7 @@
 				71676E98136A80D80016EF8E /* MobileTDDExample */,
 				71676EC5136A818A0016EF8E /* Tests */,
 				715FA21F144D6B8400902EC4 /* UnitTestTarget */,
+				7187947E144E7E3D006F7439 /* MobileTDDExample copy */,
 			);
 		};
 /* End PBXProject section */
@@ -353,6 +406,17 @@
 			files = (
 				71676ED0136A818A0016EF8E /* InfoPlist.strings in Resources */,
 				7143EFFB144836BA00AA385D /* Headers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7187948B144E7E3D006F7439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7187948C144E7E3D006F7439 /* InfoPlist.strings in Resources */,
+				7187948D144E7E3D006F7439 /* MainWindow.xib in Resources */,
+				7187948E144E7E3D006F7439 /* RootViewController.xib in Resources */,
+				718794A4144E828F006F7439 /* frank_static_resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +479,19 @@
 				715FA20B144D524500902EC4 /* Game.h in Sources */,
 				715FA20C144D524500902EC4 /* Game.m in Sources */,
 				715FA210144D57E300902EC4 /* OCHamcrestTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7187947F144E7E3D006F7439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71879480144E7E3D006F7439 /* Game.h in Sources */,
+				71879481144E7E3D006F7439 /* Game.m in Sources */,
+				71879482144E7E3D006F7439 /* main.m in Sources */,
+				71879483144E7E3D006F7439 /* MobileTDDExampleAppDelegate.m in Sources */,
+				71879484144E7E3D006F7439 /* MobileTDDExample.xcdatamodeld in Sources */,
+				71879485144E7E3D006F7439 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +729,50 @@
 			};
 			name = Release;
 		};
+		71879490144E7E3D006F7439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileTDDExample/MobileTDDExample-Prefix.pch";
+				INFOPLIST_FILE = "MobileTDDExample copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "MobileTDDExample Frankified";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71879491144E7E3D006F7439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileTDDExample/MobileTDDExample-Prefix.pch";
+				INFOPLIST_FILE = "MobileTDDExample copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "MobileTDDExample Frankified";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,6 +808,15 @@
 			buildConfigurations = (
 				71676EE1136A818B0016EF8E /* Debug */,
 				71676EE2136A818B0016EF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7187948F144E7E3D006F7439 /* Build configuration list for PBXNativeTarget "MobileTDDExample copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71879490144E7E3D006F7439 /* Debug */,
+				71879491144E7E3D006F7439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

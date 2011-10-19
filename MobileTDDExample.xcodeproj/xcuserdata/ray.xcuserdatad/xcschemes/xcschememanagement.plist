@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MobileTDDExample copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>MobileTDDExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>71676EC5136A818A0016EF8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7187947E144E7E3D006F7439</key>
 		<dict>
 			<key>primary</key>
 			<true/>
