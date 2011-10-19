@@ -2,7 +2,7 @@ Given /^I launch the app$/ do
 
 
   app_path = ENV['APP_BUNDLE_PATH'] || (defined?(APP_BUNDLE_PATH) && APP_BUNDLE_PATH)
-
+  
   ####################
   # once you're setting APP_BUNDLE_PATH correctly you can get rid 
   # of this detection/reporting code if you want
